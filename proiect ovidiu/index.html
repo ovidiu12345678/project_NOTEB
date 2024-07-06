@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noteb Info Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="info-container">
+            <h1>Noteb Info Design</h1>
+            <div class="info-item">
+                <i class="fas fa-calendar-alt"></i>
+                <p><span>Ultima actualizare a bazei de date:</span> 2024-07-01</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-store"></i>
+                <p><span>Numărul de retaileri:</span> 25</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-laptop"></i>
+                <p><span>Numărul de configurări unice de laptopuri:</span> 350</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-list-alt"></i>
+                <p><span>Numărul de modele de laptopuri:</span> 120</p>
+            </div>
+        </div>
+
+        <div class="category-container">
+            <div class="arrow-swipe left-arrow">
+                <i class="fas fa-chevron-left arrow left"></i>
+            </div>
+            <div class="category">
+                <div class="category-item" data-category="home-student">
+                    <h3>Home & Student</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/laptop1.avif" alt="Dell Inspiron 15 5515">
+                            <div class="info">
+                                <p>Dell Inspiron 15 5515</p>
+                                <span>$550 - $1350</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/laptop2.avif" alt="Lenovo Yoga 7i 14">
+                            <div class="info">
+                                <p>Lenovo Yoga 7i 14</p>
+                                <span>$700 - $1050</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-item" data-category="gaming">
+                    <h3>Gaming</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/laptop3.webp" alt="Acer Predator Helios 300">
+                            <div class="info">
+                                <p>Acer Predator Helios 300</p>
+                                <span>$1500 - $2250</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/laptop4.webp" alt="HP Omen 16">
+                            <div class="info">
+                                <p>HP Omen 16</p>
+                                <span>$1400 - $3100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-item" data-category="business">
+                    <h3>Business</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/laptop6.avif" alt="HP EliteBook 840 G8">
+                            <div class="info">
+                                <p>HP EliteBook 840 G8</p>
+                                <span>$1000 - $3900</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/laptop7.avif" alt="Lenovo Thinkpad T14">
+                            <div class="info">
+                                <p>Lenovo Thinkpad T14</p>
+                                <span>$1000 - $2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-swipe right-arrow">
+                <i class="fas fa-chevron-right arrow right"></i>
+            </div>
+            <div class="category-indicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+            </div>
+        </div>
+    </div>
+    <script src="laptopuri_recomandate.js"></script>
+</body>
+</html>
